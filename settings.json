@@ -1,0 +1,135 @@
+{
+    // Recommended: Exclude `*.md` files to prevent markdown headers from being highlighted.
+    // "todo-tree.filtering.excludeGlobs": [
+    //     "**/node_modules/*/**",
+    //     "**/*.md"
+    // ],
+    "todo-tree.general.tagGroups": {
+        "TODO": [
+            "[ ]"
+        ],
+        "FIXME": [
+            "XXX"
+        ],
+        "BUG": [],
+        "HACK": [
+            "OPTIMIZE"
+        ],
+        "NOTE": [
+            "NOTICE"
+        ],
+        "QUESTION": [
+            "WTF",
+            "???"
+        ],
+        "WARNING": [
+            "!!!"
+        ],
+        "DEPRECATED": [
+            "Deprecated"
+        ],
+        "REFERENCE": [
+            "REF"
+        ]
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "[ ]",
+        "FIXME",
+        "XXX",
+        "BUG",
+        "HACK",
+        "OPTIMIZE",
+        "NOTE",
+        "NOTICE",
+        "QUESTION",
+        "WTF",
+        "???",
+        "WARNING",
+        "!!!",
+        "DEPRECATED",
+        "Deprecated",
+        "REFERENCE",
+        "REF"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "#8cc265",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "issue-draft",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "#d18f52",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "flame",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "foreground": "#e05561",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "bug",
+            "gutterIcon": true
+        },
+        "HACK": {
+            "foreground": "#c162de",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "tools",
+            "gutterIcon": true
+        },
+        "NOTE": {
+            "foreground": "#42b3c2",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "note",
+            "gutterIcon": true,
+            "hideFromTree": true,
+            "hideFromStatusBar": true,
+            "hideFromActivityBar": true
+        },
+        "QUESTION": {
+            "foreground": "#4aa5f0",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "question",
+            "gutterIcon": true,
+            "hideFromTree": true,
+            "hideFromStatusBar": true,
+            "hideFromActivityBar": true
+        },
+        "WARNING": {
+            "foreground": "#e05561",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "alert",
+            "gutterIcon": true,
+            "hideFromTree": true,
+            "hideFromStatusBar": true,
+            "hideFromActivityBar": true
+        },
+        "DEPRECATED": {
+            "foreground": "#4f5666",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "circle-slash",
+            "gutterIcon": true,
+            "hideFromTree": true,
+            "hideFromStatusBar": true,
+            "hideFromActivityBar": true
+        },
+        "REFERENCE": {
+            "foreground": "#d7dae0",
+            "fontWeight": "bold",
+            "fontStyle": "italic",
+            "icon": "cross-reference",
+            "gutterIcon": true,
+            "hideFromTree": true,
+            "hideFromStatusBar": true,
+            "hideFromActivityBar": true
+        }
+    }
+}
