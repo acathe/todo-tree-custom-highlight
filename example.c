@@ -1,7 +1,9 @@
 // TODO: example
+// TO-DO: example
 // [ ]: example
 
 // FIXME: example
+// FIX-ME: example
 // XXX: example
 
 // BUG: example

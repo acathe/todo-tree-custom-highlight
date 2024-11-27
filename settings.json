@@ -4,11 +4,14 @@
     //     "**/node_modules/*/**",
     //     "**/*.md"
     // ],
+    // "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.general.tagGroups": {
         "TODO": [
+            "TO-DO",
             "[ ]"
         ],
         "FIXME": [
+            "FIX-ME",
             "XXX"
         ],
         "BUG": [],
@@ -25,17 +28,17 @@
         "WARNING": [
             "!!!"
         ],
-        "DEPRECATED": [
-            "Deprecated"
-        ],
+        "DEPRECATED": [],
         "REFERENCE": [
             "REF"
         ]
     },
     "todo-tree.general.tags": [
         "TODO",
+        "TO-DO",
         "[ ]",
         "FIXME",
+        "FIX-ME",
         "XXX",
         "BUG",
         "HACK",
@@ -48,7 +51,6 @@
         "WARNING",
         "!!!",
         "DEPRECATED",
-        "Deprecated",
         "REFERENCE",
         "REF"
     ],
